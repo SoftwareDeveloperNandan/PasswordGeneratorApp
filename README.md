@@ -82,7 +82,6 @@ function PasswordGenerator() {
             placeholder="Password"
             readOnly
           />
-
           <button
           className="outline-none bg-blue-700 px-3 py-2 cursor-pointer font-bold hover:bg-black text-white"
           onClick={copyPasswordToClipboard}
@@ -90,7 +89,6 @@ function PasswordGenerator() {
             Copy
           </button>
         </div>
-
         {/* range number and charecter */}
         <div className="text-md flex gap-x-2 font-bold">
           <div className="flex items-center gap-x-1">
